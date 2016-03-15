@@ -9,7 +9,7 @@ var jshint = require('gulp-jshint');
 var moment = require('moment');
 var browserSync = require('browser-sync').create();
 
-var lib = require('bower-files')(){
+var lib = require('bower-files')({
   "overrides":{
     "bootstrap" : {
       "main" : [
@@ -73,7 +73,7 @@ gulp.task('bowerCSS', function(){
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('bower' ['bowerJS', 'bowerCSS']);
+gulp.task('bower',['bowerJS', 'bowerCSS']);
 
 gulp.task('serve', function() {
   browser.Sync.init({
