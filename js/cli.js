@@ -1,4 +1,4 @@
-var Journal = require('./journal-entry.js').Journal;
+var Journal = require('./.js').Journal;
 var prompt = require('prompt');
 prompt.start();
 

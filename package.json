@@ -1,7 +1,6 @@
 {
-  "name": "gdjournal",
+  "name": "alarmclock",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +13,7 @@
   },
   "devDependencies": {
     "bower-files": "^3.11.3",
+    "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
@@ -23,5 +23,14 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bpopson11/journal_entry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bpopson11/journal_entry/issues"
+  },
+  "homepage": "https://github.com/Bpopson11/journal_entry#readme",
+  "description": ""
 }
